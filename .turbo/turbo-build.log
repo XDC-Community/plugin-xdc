@@ -1,0 +1,22 @@
+
+Debugger attached.
+
+> @elizaos/plugin-xdc@0.1.5-alpha.5 build /home/vlad/ai-experimental-lab/packages/plugin-xdc
+> tsup --format esm --dts
+
+Debugger attached.
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.3.5
+[34mCLI[39m Using tsup config: /home/vlad/ai-experimental-lab/packages/plugin-xdc/tsup.config.ts
+[34mCLI[39m Target: esnext
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[32mESM[39m [1mdist/index.js     [22m[32m27.75 KB[39m
+[32mESM[39m [1mdist/index.js.map [22m[32m57.02 KB[39m
+[32mESM[39m ⚡️ Build success in 37ms
+DTS Build start
+DTS ⚡️ Build success in 5961ms
+DTS dist/index.d.ts 119.00 B
+Waiting for the debugger to disconnect...
+Waiting for the debugger to disconnect...
