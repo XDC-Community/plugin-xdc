@@ -1,0 +1,51 @@
+{
+    "name": "@elizaos/plugin-xdc",
+    "version": "0.1.5-alpha.5",
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "exports": {
+        "./package.json": "./package.json",
+        ".": {
+            "import": {
+                "@elizaos/source": "./src/index.ts",
+                "types": "./dist/index.d.ts",
+                "default": "./dist/index.js"
+            }
+        }
+    },
+    "dependencies": {
+        "viem": "2.22.23",
+        "node-cache": "^5.1.2",
+        "@elizaos/cli": "1.0.0-beta.7",
+        "@elizaos/core": "1.0.0-beta.7"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+        "tsup": "8.3.5"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsup --format esm --dts",
+        "dev": "tsup --format esm --dts --watch",
+        "lint": "eslint --fix  --cache ."
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:plugin:1.0.0",
+        "pluginParameters": {
+            "XDC_PRIVATE_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "XDC private key is required"
+            },
+            "XDC_NETWORK": {
+                "type": "string",
+                "minLength": 1,
+                "description": "XDC_NETWORK must be one of the following: mainnet, apothem"
+            }
+        }
+    }
+}
