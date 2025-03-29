@@ -110,39 +110,11 @@ pnpm run build
 pnpm run dev
 ```
 
-## Future Enhancements
-
-1. **Smart Contract Interactions**
-   - Deploy and interact with smart contracts
-   - Template-based contract deployment
-   - ABI management system
-
-2. **Token Management**
-   - Support for XRC tokens
-   - Token transfer history
-   - Token discovery features
-
-3. **Wallet Enhancements**
-   - Multiple wallet support
-   - Hardware wallet integration
-   - Address book features
-
-4. **Network Features**
-   - Cross-chain operations
-   - Gas fee optimization
-   - Transaction batch processing
-
-5. **Analytics and Monitoring**
-   - Transaction tracking dashboard
-   - Network statistics
-   - Performance metrics
-
-We welcome community feedback and contributions to help prioritize these enhancements.
+We welcome community feedback and contributions.
 
 ## Contributing
 
-Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
-
+Contributions are welcome! 
 ## Credits
 
 This plugin integrates with and builds upon the XDC Network technology:
@@ -158,6 +130,3 @@ For more information about XDC capabilities:
 - [XDC Documentation](https://docs.xdc.org/)
 - [Apothem Testnet](https://apothem.network/)
 
-## License
-
-This plugin is part of the Eliza project. See the main project repository for license information.
