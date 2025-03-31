@@ -119,14 +119,11 @@ Contributions are welcome!
 
 This plugin integrates with and builds upon the XDC Network technology:
 
-- [XDC Network](https://xinfin.org/): XDC blockchain platform
-- [Viem](https://viem.sh/): Ethereum library used for blockchain interactions
-
 Special thanks to:
 - The XDC development team
 - The Eliza community for their contributions and feedback
 
 For more information about XDC capabilities:
-- [XDC Documentation](https://docs.xdc.org/)
-- [Apothem Testnet](https://apothem.network/)
+- [XDC Documentation](https://docs.xdc.network/)
+- [Apothem Testnet Scan](https://apothem.xdcscan.io/)
 
